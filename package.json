@@ -1,15 +1,16 @@
 {
 	"name": "gitbook-plugin-codeblock-filename",
+	"version": "0.0.1",
+	"author": "fukuo",
 	"description": "Add to Filename in Codeblock",
 	"main": "index.js",
-	"version": "0.0.1",
 	"engines": {
 		"gitbook": "*"
 	},
-	"homepage": "https://github.com/GitbookIO/plugin",
+	"homepage": "https://github.com/litmon/gitbook-plugin-codeblock-filename",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/GitbookIO/plugin.git"
+		"url": "https://github.com/litmon/gitbook-plugin-codeblock-filename.git"
 	},
-	"license": "Apache 2"
+	"license": "MIT"
 }

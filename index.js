@@ -3,8 +3,8 @@ module.exports = {
 	hooks: {
 		// Qiita記法を独自フォーマットに変換
 		"page:before": function(page) {
-			var regixAll = /([^\S]```.+)(:(.+))[\s\S]+?```/g;
-			var regix = /([^\S]```.+)(:(.+))[\s\S]+?```/;
+			var regixAll = /([^\S]```.*)(:(.+))[\s\S]+?```/g;
+			var regix = /([^\S]```.*)(:(.+))[\s\S]+?```/;
 			var matchAll = page.content.match(regixAll);
 
 			for(var i = 0; matchAll && i < matchAll.length; i++){

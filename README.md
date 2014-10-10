@@ -29,11 +29,29 @@ codeblock
 ```
 </code></pre>
 
-You can see the filename on top of the codeblock.
+You can also write below like qiita,
+
+<pre><code>
+```js:test.js
+codeblock
+```
+</code></pre>
+
+Code format is not necessary. So you can exclude `js`. 
+
+You can also write below,
+
+<pre><code>
+```:test.js
+codeblock
+```
+</code></pre>
+
+Then, you can see the filename on top of the codeblock.
 
 ## Example
 
-write the code ↓
+write this code ↓
 
 <pre><code>
 !FILENAME test.js
@@ -45,6 +63,6 @@ console.log(a);
 ```
 </code></pre>
 
-the result ↓
+then result is ↓
 
 ![screenshot](screenshot.png)

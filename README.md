@@ -22,21 +22,25 @@ Add the plugin to your `book.json`:
 
 Then, you need only to insert before codeblock the code below.
 
-> !FILENAME filename
-> ```
-> codeblock
-> ```
+```
+!FILENAME filename
+```
+codeblock
+```
+```
 
 You can see the filename on top of the codeblock.
 
 ## Example
 
-> !FILENAME test.js
-> ```
-> var a = 10;
-> a = a + 1;
-> 
-> console.log(a);
-> ```
+```
+!FILENAME test.js
+```
+var a = 10;
+a = a + 1;
+
+console.log(a);
+```
+```
 
 

@@ -33,6 +33,8 @@ You can see the filename on top of the codeblock.
 
 ## Example
 
+write the code ↓
+
 <pre><code>
 !FILENAME test.js
 ```
@@ -43,4 +45,6 @@ console.log(a);
 ```
 </code></pre>
 
+the result ↓
 
+![screenshot](screenshot.png)

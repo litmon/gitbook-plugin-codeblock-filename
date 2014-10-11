@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/FukuoKadota/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/Users/FukuoKadota/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/FukuoKadota/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+12 verbose folder .
+13 info prepublish gitbook-plugin-codeblock-filename@0.0.3
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/FukuoKadota/.npm/1f1177db-tar.lock
+16 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+17 verbose lock tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz /Users/FukuoKadota/.npm/973377ea-5532016-0-64787030313164-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+21 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+22 verbose tar unpack /var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+23 silly lockFile 5ab267a6-codeblock-filename-0-0-3-package tar:///Users/FukuoKadota/.npm/gitbook-plugin-codeblock-filename/0.0.3/package
+24 verbose lock tar:///Users/FukuoKadota/.npm/gitbook-plugin-codeblock-filename/0.0.3/package /Users/FukuoKadota/.npm/5ab267a6-codeblock-filename-0-0-3-package.lock
+25 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+26 verbose lock tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz /Users/FukuoKadota/.npm/973377ea-5532016-0-64787030313164-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm extractEntry README.md~
+33 silly gunzTarPerm extractEntry book/block.css
+34 silly gunzTarPerm extractEntry book/test.css~
+35 silly gunzTarPerm extractEntry index.js~
+36 silly gunzTarPerm extractEntry package.json~
+37 silly gunzTarPerm extractEntry screenshot.png
+38 silly lockFile 5ab267a6-codeblock-filename-0-0-3-package tar:///Users/FukuoKadota/.npm/gitbook-plugin-codeblock-filename/0.0.3/package
+39 silly lockFile 5ab267a6-codeblock-filename-0-0-3-package tar:///Users/FukuoKadota/.npm/gitbook-plugin-codeblock-filename/0.0.3/package
+40 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+41 silly lockFile 973377ea-5532016-0-64787030313164-tmp-tgz tar:///var/folders/hd/7v1hcpv12nj64mkq7lgry1t00000gn/T/npm-63375-Hh0sP2j8/1413025532016-0.64787030313164/tmp.tgz
+42 silly lockFile 3a52ce78- .
+43 silly lockFile 3a52ce78- .
+44 silly publish { name: 'gitbook-plugin-codeblock-filename',
+44 silly publish   version: '0.0.3',
+44 silly publish   author: { name: 'fukuo' },
+44 silly publish   description: 'Add to Filename in Codeblock',
+44 silly publish   main: 'index.js',
+44 silly publish   engines: { gitbook: '*' },
+44 silly publish   homepage: 'https://github.com/litmon/gitbook-plugin-codeblock-filename',
+44 silly publish   repository:
+44 silly publish    { type: 'git',
+44 silly publish      url: 'https://github.com/litmon/gitbook-plugin-codeblock-filename.git' },
+44 silly publish   license: 'MIT',
+44 silly publish   readme: '# Gitbook Plugin: Add Filename to Codeblock\n\nThis is a gitbook plugin.\n\nAdd filename to\tcodeblock.\n\n## Usage\n\nYou can install this plugin via NPM and save it to `package.json`.\n\n```\n$ npm install gitbook-plugin-codeblock-filename --save\n```\n\nAdd the plugin to your `book.json`:\n\n```\n{\n\tplugins: [ "codeblock-filename" ] \n}\n```\n\nThen, you need only to insert before codeblock the code below.\n\n<pre><code>\n!FILENAME filename\n```\ncodeblock\n```\n</code></pre>\n\nYou can also write below like qiita,\n\n<pre><code>\n```js:test.js\ncodeblock\n```\n</code></pre>\n\nCode format is not necessary. So you can exclude `js`. \n\nYou can also write below,\n\n<pre><code>\n```:test.js\ncodeblock\n```\n</code></pre>\n\nThen, you can see the filename on top of the codeblock.\n\n## Example\n\nwrite this code ↓\n\n<pre><code>\n!FILENAME test.js\n```\nvar a = 10;\na = a + 1;\n\nconsole.log(a);\n```\n</code></pre>\n\nthen result is ↓\n\n![screenshot](screenshot.png)\n',
+44 silly publish   readmeFilename: 'README.md',
+44 silly publish   bugs: { url: 'https://github.com/litmon/gitbook-plugin-codeblock-filename/issues' },
+44 silly publish   _id: 'gitbook-plugin-codeblock-filename@0.0.3',
+44 silly publish   _shasum: '48de25dc2373b402656df1c9b78a5dfb6fe1e17f',
+44 silly publish   _from: '.' }
+45 verbose url raw gitbook-plugin-codeblock-filename
+46 verbose url resolving [ 'https://registry.npmjs.org/',
+46 verbose url resolving   './gitbook-plugin-codeblock-filename' ]
+47 verbose url resolved https://registry.npmjs.org/gitbook-plugin-codeblock-filename
+48 info trying registry request attempt 1 at 20:05:32
+49 http PUT https://registry.npmjs.org/gitbook-plugin-codeblock-filename
+50 http 403 https://registry.npmjs.org/gitbook-plugin-codeblock-filename
+51 verbose headers { date: 'Sat, 11 Oct 2014 11:05:32 GMT',
+51 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=60',
+51 verbose headers   'content-length': '3443',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   'x-served-by': 'cache-ty68-TYO',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1413025531.484742,VS0,VE552',
+51 verbose headers   connection: 'close' }
+52 error publish Failed PUT 403
+53 error Error: forbidden cannot modify pre-existing version: 0.0.3
+53 error old={"name":"gitbook-plugin-codeblock-filename","version":"0.0.3","author":{"name":"fukuo"},"description":"Add to Filename in Codeblock","main":"index.js","engines":{"gitbook":"*"},"homepage":"https://github.com/litmon/gitbook-plugin-codeblock-filename","repository":{"type":"git","url":"https://github.com/litmon/gitbook-plugin-codeblock-filename.git"},"license":"MIT","bugs":{"url":"https://github.com/litmon/gitbook-plugin-codeblock-filename/issues"},"_id":"gitbook-plugin-codeblock-filename@0.0.3","_shasum":"dfd7667f912f98a9b91e64aa7675b3f47b1eed53","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"fukuo","email":"app.fk91@gmail.com"},"maintainers":[{"name":"fukuo","email":"app.fk91@gmail.com"}],"dist":{"shasum":"dfd7667f912f98a9b91e64aa7675b3f47b1eed53","tarball":"http://registry.npmjs.org/gitbook-plugin-codeblock-filename/-/gitbook-plugin-codeblock-filename-0.0.3.tgz"}}
+53 error new={"name":"gitbook-plugin-codeblock-filename","version":"0.0.3","author":{"name":"fukuo"},"description":"Add to Filename in Codeblock","main":"index.js","engines":{"gitbook":"*"},"homepage":"https://github.com/litmon/gitbook-plugin-codeblock-filename","repository":{"type":"git","url":"https://github.com/litmon/gitbook-plugin-codeblock-filename.git"},"license":"MIT","readme":"# Gitbook Plugin: Add Filename to Codeblock\u000a\u000aThis is a gitbook plugin.\u000a\u000aAdd filename to\u0009codeblock.\u000a\u000a## Usage\u000a\u000aYou can install this plugin via NPM and save it to `package.json`.\u000a\u000a```\u000a$ npm install gitbook-plugin-codeblock-filename --save\u000a```\u000a\u000aAdd the plugin to your `book.json`:\u000a\u000a```\u000a{\u000a\u0009plugins: [ \"codeblock-filename\" ] \u000a}\u000a```\u000a\u000aThen, you need only to insert before codeblock the code below.\u000a\u000a<pre><code>\u000a!FILENAME filename\u000a```\u000acodeblock\u000a```\u000a</code></pre>\u000a\u000aYou can also write below like qiita,\u000a\u000a<pre><code>\u000a```js:test.js\u000acodeblock\u000a```\u000a</code></pre>\u000a\u000aCode format is not necessary. So you can exclude `js`. \u000a\u000aYou can also write below,\u000a\u000a<pre><code>\u000a```:test.js\u000acodeblock\u000a```\u000a</code></pre>\u000a\u000aThen, you can see the filename on top of the codeblock.\u000a\u000a## Example\u000a\u000awrite this code ↓\u000a\u000a<pre><code>\u000a!FILENAME test.js\u000a```\u000avar a = 10;\u000aa = a + 1;\u000a\u000aconsole.log(a);\u000a```\u000a</code></pre>\u000a\u000athen result is ↓\u000a\u000a![screenshot](screenshot.png)\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/litmon/gitbook-plugin-codeblock-filename/issues"},"_id":"gitbook-plugin-codeblock-filename@0.0.3","_shasum":"48de25dc2373b402656df1c9b78a5dfb6fe1e17f","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"fukuo","email":"app.fk91@gmail.com"},"maintainers":[{"name":"fukuo","email":"app.fk91@gmail.com"}],"dist":{"shasum":"48de25dc2373b402656df1c9b78a5dfb6fe1e17f","tarball":"http://registry.npmjs.org/gitbook-plugin-codeblock-filename/-/gitbook-plugin-codeblock-filename-0.0.3.tgz"}}: gitbook-plugin-codeblock-filename
+53 error     at RegClient.<anonymous> (/Users/FukuoKadota/.nvm/v0.11.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+53 error     at Request._callback (/Users/FukuoKadota/.nvm/v0.11.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+53 error     at Request.self.callback (/Users/FukuoKadota/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:123:22)
+53 error     at Request.EventEmitter.emit (events.js:110:17)
+53 error     at Request.<anonymous> (/Users/FukuoKadota/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:893:14)
+53 error     at Request.EventEmitter.emit (events.js:129:20)
+53 error     at IncomingMessage.<anonymous> (/Users/FukuoKadota/.nvm/v0.11.13/lib/node_modules/npm/node_modules/request/request.js:844:12)
+53 error     at IncomingMessage.EventEmitter.emit (events.js:129:20)
+53 error     at _stream_readable.js:898:16
+53 error     at process._tickCallback (node.js:343:11)
+54 error If you need help, you may report this *entire* log,
+54 error including the npm and node versions, at:
+54 error     <http://github.com/npm/npm/issues>
+55 error System Darwin 13.4.0
+56 error command "/Users/FukuoKadota/.nvm/v0.11.13/bin/node" "/Users/FukuoKadota/.nvm/v0.11.13/bin/npm" "publish"
+57 error cwd /Users/FukuoKadota/git/gitbook-plugin-codeblock-filename
+58 error node -v v0.11.13
+59 error npm -v 1.4.9
+60 verbose exit [ 1, true ]

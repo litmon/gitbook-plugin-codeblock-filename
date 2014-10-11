@@ -30,7 +30,6 @@ module.exports = {
 				var tagAll = section.content.match(regixAll);
 
 				for(var j = 0; tagAll && j < tagAll.length; j++){
-					console.log(section);
 					var tag = section.content.match(regix);
 					var replace = tag[0].replace(tag[1], replacer(tag[2]));
 					section.content = section.content.replace(tag[0], replace);

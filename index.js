@@ -10,7 +10,7 @@ module.exports = {
 			for(var i = 0; matchAll && i < matchAll.length; i++){
 				var match = matchAll[i].match(regix);
 				var input = match.input.replace(match[2], "");
-				var replace = input.replace(match[1], "!FILENAME " + match[3] + match[1]);
+				var replace = input.replace(match[1], "\n\n!FILENAME " + match[3] + match[1]);
 				page.content = page.content.replace(match.input, replace);
 			}
 
@@ -19,8 +19,8 @@ module.exports = {
 
 		// 独自フォーマットからfilenameタグを生成
 		"page": function(page) {
-			var regixAll = /(<p>!FILENAME\s([^\s]+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/g;
-			var regix = /(<p>!FILENAME\s([^\s]+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/;
+			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/g;
+			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/;
 			var replacer = function(filename){
 				return '<div class="code-filename">' + filename + '</div>'; 
 			}
@@ -30,6 +30,7 @@ module.exports = {
 				var tagAll = section.content.match(regixAll);
 
 				for(var j = 0; tagAll && j < tagAll.length; j++){
+					console.log(section);
 					var tag = section.content.match(regix);
 					var replace = tag[0].replace(tag[1], replacer(tag[2]));
 					section.content = section.content.replace(tag[0], replace);
@@ -40,3 +41,4 @@ module.exports = {
 		}
 	}
 };
+

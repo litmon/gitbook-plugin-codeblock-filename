@@ -22,7 +22,7 @@ module.exports = {
 			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/g;
 			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/;
 			var replacer = function(filename){
-				return '<div class="code-filename">' + filename + '</div>'; 
+				return '<div class="code-block"><p class="code-filename">' + filename + '</p></div>'; 
 			}
 
 			for(var i = 0; i < page.sections.length; i++){

@@ -19,21 +19,18 @@ module.exports = {
 
 		// 独自フォーマットからfilenameタグを生成
 		"page": function(page) {
-			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/g;
-			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)\n<pre>[\s\S]*?(<\/pre>)/;
+			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)<pre>[\s\S]*?(<\/pre>)/g;
+			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)<pre>[\s\S]*?(<\/pre>)/;
 			var replacer = function(filename){
-				return '<div class="code-block"><p class="code-filename">' + filename + '</p></div>'; 
+				return '<div><p class="code-filename">' + filename + '</p></div>';
 			}
 
-			for(var i = 0; i < page.sections.length; i++){
-				var section = page.sections[i];
-				var tagAll = section.content.match(regixAll);
+			var tagAll = page.content.match(regixAll);
 
-				for(var j = 0; tagAll && j < tagAll.length; j++){
-					var tag = section.content.match(regix);
-					var replace = tag[0].replace(tag[1], replacer(tag[2]));
-					section.content = section.content.replace(tag[0], replace);
-				}
+			for(var j = 0; tagAll && j < tagAll.length; j++){
+				var tag = page.content.match(regix);
+				var replace = tag[0].replace(tag[1], replacer(tag[2]));
+				page.content = page.content.replace(tag[0], replace);
 			}
 
 			return page;

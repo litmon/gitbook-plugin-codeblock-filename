@@ -1,6 +1,6 @@
 {
 	"name": "gitbook-plugin-codeblock-filename",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"author": "fukuo",
 	"description": "Add to Filename in Codeblock",
 	"main": "index.js",

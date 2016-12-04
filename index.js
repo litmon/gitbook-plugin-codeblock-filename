@@ -19,8 +19,8 @@ module.exports = {
 
 		// 独自フォーマットからfilenameタグを生成
 		"page": function(page) {
-			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)<pre>[\s\S]*?(<\/pre>)/g;
-			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)<pre>[\s\S]*?(<\/pre>)/;
+			var regixAll = /(<p>!FILENAME\s+([\S].+)<\/p>)\s*<pre>[\s\S]*?(<\/pre>)/g;
+			var regix = /(<p>!FILENAME\s+([\S].+)<\/p>)\s*<pre>[\s\S]*?(<\/pre>)/;
 			var replacer = function(filename){
 				return '<div><p class="code-filename">' + filename + '</p></div>';
 			}
